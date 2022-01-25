@@ -136,3 +136,23 @@ tr:nth-child(even) {
 	background-color: #dddddd;
 }
 
+table.score {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #282C72;
+  border-style: solid;
+  color: #000000;
+}
+
+table.score td, table.score th {
+  border-width: 2px;
+  border-color: #282C72;
+  border-style: solid;
+  padding: 3px;
+}
+
+table.score thead {
+  background-color: #282C72;
+}
